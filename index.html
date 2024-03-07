@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap - Cards</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <style>
+        .card-img-overlay {
+            background-color: rgba(0,0,0, 0.8);
+        }
+    </style>
 </head>
 
 <body>
@@ -13,12 +19,27 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
+                <article class="card">
+                    <header class="card-header">
                         Cabeçalho do header
-                    </div>
+                    </header>
                     <img src="https://via.placeholder.com/100x100" />
                     <div class="card-body">
+                        <h4 class="card-title">Card Bootstrap</h4>
+                        <p class="card-text">
+                            Conheça os Cards do Bootstrap e suas variações
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        <p>Publicado em <time>06/03/2024 às 17:20:00</time></p>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <div class="card">                    
+                    <img src="https://img.freepik.com/vetores-gratis/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpg?w=826&t=st=1709754846~exp=1709755446~hmac=c3366f98fe71da22c383fb28132be57aae6bf4db9b44a34ef31a073e8c719a40" />
+                    <div class="card-img-overlay">
                         <h4 class="card-title">Título do Card</h4>
                         <h5 class="card-subtitle">Subtitulo do Card</h5>
                         <p class="card-text">
@@ -29,23 +50,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
-                        Cabeçalho do header
-                    </div>
-                    <img src="https://via.placeholder.com/100x100" />
-                    <div class="card-body">
-                        <h4 class="card-title">Título do Card</h4>
-                        <h5 class="card-subtitle">Subtitulo do Card</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dolorem perspiciatis, adipisci ipsum assumenda officia at eaque nihil repudiandae architecto beatae alias eos molestiae ut aperiam. Ullam ut dicta facere!
-                        </p>
-                        <a href="#" class="btn btn-primary">Botão link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
+                <div class="card text-bg-dark">
                     <div class="card-header">
                         Cabeçalho do header
                     </div>
